@@ -5,7 +5,7 @@ const Navbar = () => {
   const { networkError, isUserLoggedIn, logoutUser } = useContext(ChatContext);
   return (
     <div className="navbar">
-      <span className="logo">DApp Chat</span>
+      <span className="logo">Shaberu Socialfi</span>
       <div className="user">
         <button onClick={logoutUser}>logout</button>
       </div>
