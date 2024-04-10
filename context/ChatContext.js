@@ -29,7 +29,7 @@ export const ChatProvider = ({ children }) => {
       }
       let chainId = await ethereum.request({ method: "eth_chainId" });
       console.log("Connected to " + chainId);
-      const rinkebyChainId = "0x1";
+      const rinkebyChainId = "0xaa36a7";
       if (chainId !== rinkebyChainId) {
         console.log("Please connect to Goerli Test Network");
         setCorrectNetwork(false);
